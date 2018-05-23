@@ -122,3 +122,12 @@ Sponsors: Bas Jansen
 * Directus Core codebase released under the [GPLv3](http://www.gnu.org/copyleft/gpl.html) license.
 * Example Code, Design Previews, Demonstration Apps, Custom Extensions, Custom interfaces, and Documentation copyright 2018 [RANGER Studio LLC](http://rngr.org/).
 * RANGER Studio owns all Directus trademarks, service marks, and graphic logos on behalf of our project's community. The names of all Directus projects are trademarks of [RANGER Studio LLC](http://rngr.org/).
+
+
+########
+ensure that you have everything installed in terms of mods
+also ensure that everything in /var/www/html/ is owned by apache
+sudo chown -R www-data:www-data /var/www/html/
+sudo chmod -R g+rw /var/www/html/
+NB: use sudo only if you need to
+
